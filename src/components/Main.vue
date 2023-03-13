@@ -1,13 +1,19 @@
 <script>
 
-export default{
+import ExcellenceSection from './Excellence-Section.vue';
 
+export default{
+  components:{
+    ExcellenceSection,
+  },
 }
 
 </script>
 
 <template>
-<h2>ciao sono MAIN</h2>
+
+<ExcellenceSection/>
+
 </template>
 
 <style lang="scss" scoped>

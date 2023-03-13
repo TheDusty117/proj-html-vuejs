@@ -125,7 +125,7 @@ export default{
 
 section{
   background-color: grey;
-  height: 860px;
+  min-height: 860px;
   background-image: url('images/bg-9.jpg');
   background-repeat: no-repeat;
   background-position: center;
