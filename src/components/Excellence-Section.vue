@@ -15,7 +15,7 @@ export default{
       <!------------ COLONNA DESCRIZIONE MISSION ------------->
       <div class="col-8">
         <h2 class="pb-4">who we are</h2>
-        <h3 class="pb-3"><span>V Excellence</span> in Transport</h3>
+        <h3 class="pb-3"><span><font-awesome-icon icon="fa-regular fa-gem" /> Excellence</span> in Transport</h3>
         <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At suscipit aspernatur voluptatum. Provident cupiditate soluta non voluptatum sint sunt voluptatem vel recusandae.</p>
         <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius necessitatibus, molestias sint error voluptates libero est. Sequi veritatis voluptatum. Fuga, quidem.</p>
         <p class="italic-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente fugiat quo recusandae dolorem, officiis reprehenderit commodi dolor illo natus.</p>
@@ -46,13 +46,13 @@ export default{
 
         </ul>
 
-        <ul class="p-0">
-          <h2>Certifications</h2>
+        <h2 class="pt-5" >Certifications</h2>
+        <ul class="d-flex gap-4 certification-list p-0">
           <li>
-            CERT
+            <img src="/images/certificate.png" alt="">
           </li>
           <li>
-            CERT
+            <img src="/images/certificate.png" alt="">
           </li>
         </ul>
 
@@ -89,7 +89,7 @@ export default{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;
-    color: #058283;
+    color: #00A29C;
 
   }
   h3{
@@ -97,7 +97,9 @@ export default{
     font-size: 50px;
     span{
       background-color: #DAECED;
-      color: #058283;
+      padding: 0px 15px;
+      border-radius: 5px;
+      color: #00A29C;
     }
   }
   .italic-paragraph{
@@ -129,5 +131,11 @@ export default{
   border-bottom: 1px solid grey;
 }
 
+.certification-list{
+  img{
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
 
 </style>

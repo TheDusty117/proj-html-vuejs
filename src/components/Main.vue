@@ -1,10 +1,12 @@
 <script>
 
 import ExcellenceSection from './Excellence-Section.vue';
+import ServicesSection from './Services-Section.vue';
 
 export default{
   components:{
     ExcellenceSection,
+    ServicesSection,
   },
 }
 
@@ -13,6 +15,7 @@ export default{
 <template>
 
 <ExcellenceSection/>
+<ServicesSection/>
 
 </template>
 

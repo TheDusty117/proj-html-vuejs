@@ -14,29 +14,29 @@ export default{
       
       <ul class="m-0 p-0">
         <li>
-          <span>open Hours mon sat 9 19 sera</span>
+          <span><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: Mon-Sat - 9:00-18:00</span>
         </li>
       </ul>
   
       <ul class="d-flex gap-5 m-0 p-0">
         <li>
           <span>
-            30512345670
+            <font-awesome-icon icon="fa-solid fa-phone" />+(305) 1234-5678
           </span>
         </li>
         <li>
           <span>
-            emailemailemailemail
+            <font-awesome-icon icon="fa-solid fa-envelope" /> cargotransport@example.com
           </span>
         </li>
         <li>
-          <span>F</span>
+          <span><font-awesome-icon icon="fa-brands fa-facebook-f" /></span>
         </li>
         <li>
-          <span>TWT</span>
+          <span><font-awesome-icon icon="fa-brands fa-twitter" /></span>
         </li>
         <li>
-          <span>IN</span>
+          <span><font-awesome-icon icon="fa-brands fa-linkedin-in" /></span>
         </li>
       </ul>
       
@@ -78,7 +78,7 @@ export default{
             <a href="#">testimonials</a>
           </li>
           <li>
-            <a href="#">O</a>
+            <a href="#"><font-awesome-icon icon="fa-regular fa-user" /></a>
           </li>
           <li>
             <button class="btn btn-custom btn-custom-active">GET IN TOUCH</button>
