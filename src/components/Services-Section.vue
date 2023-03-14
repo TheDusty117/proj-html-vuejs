@@ -14,11 +14,11 @@ export default{
       <div class="col-8">
         <h2 class="pb-4">road transport</h2>
         <h3 class="pb-3">Main <span>Services</span></h3>
-        <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At suscipit aspernatur voluptatum. Provident cupiditate soluta non voluptatum sint sunt voluptatem vel recusandae.</p>
+        <p class="pb-2">With all of this expertise and capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
       </div>
 
       <div class="col-2 text-end">
-        <button class="btn btn-custom">READ MORE</button>
+        <button class="btn btn-custom">SEE ALL</button>
       </div>  
       
     </div>
@@ -29,7 +29,11 @@ export default{
       <div class="col-custom card-custom">
         <ul class="d-flex justify-content-between px-4 pt-5 pb-1 m-0">
           <li><font-awesome-icon icon="fa-solid fa-truck-ramp-box" /></li>
-          <li><font-awesome-icon icon="fa-solid fa-arrow-right" /></li>
+          <li>
+            <a href="#">
+              <font-awesome-icon icon="fa-solid fa-arrow-right" />
+            </a>
+          </li>
         </ul>
         <h3 class="px-4 py-2">Technology</h3>
         <p class="px-4">We are continually focused on developing technology solutions adapted to our client's needs.</p>
@@ -37,8 +41,14 @@ export default{
   
       <div class="col-custom card-custom">
         <ul class="d-flex justify-content-between px-4 pt-5 pb-1 m-0">
-          <li><font-awesome-icon icon="fa-solid fa-temperature-low" /></li>
-          <li><font-awesome-icon icon="fa-solid fa-arrow-right" /></li>
+          <li>
+            <font-awesome-icon icon="fa-solid fa-temperature-low" />
+          </li>
+          <li>
+            <a href="#">
+              <font-awesome-icon icon="fa-solid fa-arrow-right" />
+            </a>
+          </li>
         </ul>
         <h3 class="px-4 py-2">Technology</h3>
         <p class="px-4">We are continually focused on developing technology solutions adapted to our client's needs.</p>
@@ -47,7 +57,11 @@ export default{
       <div class="col-custom card-custom">
         <ul class="d-flex justify-content-between px-4 pt-5 pb-1 m-0">
           <li><font-awesome-icon icon="fa-solid fa-boxes-stacked" /></li>
-          <li><font-awesome-icon icon="fa-solid fa-arrow-right" /></li>
+          <li>
+            <a href="#">
+              <font-awesome-icon icon="fa-solid fa-arrow-right" />
+            </a>
+          </li>
         </ul>
         <h3 class="px-4 py-2">Technology</h3>
         <p class="px-4">We are continually focused on developing technology solutions adapted to our client's needs.</p>

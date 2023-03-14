@@ -55,7 +55,7 @@ export default{
       <div class="col-2">
         <ul class="p-0">
           <li>
-            <h2 class="main-logo">NEX GEN</h2>
+            <h2 class="main-logo"><span class="nex-style">NEX</span> GEN</h2>
           </li>
         </ul>
       </div>
@@ -149,6 +149,17 @@ section{
     background-color: #058283;
   }
 
+.main-logo{
+  font-weight: 600;
+}
+.nex-style{
+  color: #00c4c4;
+  font-weight: 600;
+  background-color: #0583834f;
+  padding: 2px 5px 5px 25px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
 
 .utility-list{
   li{
