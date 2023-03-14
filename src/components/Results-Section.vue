@@ -13,7 +13,7 @@ export default{
 
         <div class="col-8 col-results text-center">
           <h2>what are we doing</h2>
-          <h3 class="p-4"><span>Logistical</span> Procedure</h3>
+          <h3 class="p-4"><span>Results</span> in Numbers</h3>
         </div>
 
       </div>

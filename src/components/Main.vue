@@ -5,6 +5,7 @@ import ServicesSection from './Services-Section.vue';
 import LogisticalSection from './Logistical-Section.vue';
 import ResultsSection from './Results-Section.vue';
 import FeedbackSection from './Feedback-Section.vue'
+import ContactUsSection from './ContactUs-Section.vue'
 
 export default{
   components:{
@@ -13,6 +14,7 @@ export default{
     LogisticalSection,
     ResultsSection,
     FeedbackSection,
+    ContactUsSection,
   },
 }
 
@@ -25,6 +27,7 @@ export default{
 <LogisticalSection/>
 <ResultsSection/>
 <FeedbackSection/>
+<ContactUsSection/>
 
 </template>
 

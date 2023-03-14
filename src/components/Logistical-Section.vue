@@ -110,12 +110,13 @@ export default{
 
 
 .secondary-row{
-    // position: relative;
+    position: relative;
   p{
     font-size: 20px;
   }
   h2{
-    // position: absolute;
+    position: absolute;
+    top: -20px;
   }
   
  

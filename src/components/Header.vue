@@ -10,7 +10,7 @@ export default{
 
 <div class="additional-info-header">
   <div class="container container-teal">
-    <div class="d-flex justify-content-between align-items-center pt-2">
+    <div class="d-flex justify-content-between row-contacts-opening align-items-center">
       
       <ul class="m-0 p-0">
         <li>
@@ -135,6 +135,11 @@ section{
   
 }
 
+
+.row-contacts-opening{
+  padding-top: 13px;
+}
+
 .additional-info-header{
   background-color: #21333E;
   height: 50px;
@@ -179,10 +184,12 @@ section{
     border: 2px solid #058283;
     padding: 8px 25px;
     margin-right: 25px;
+    font-weight: 600;
   }
   .btn-custom-active{
     border: 2px solid #058283;
     background-color: #058283;
+    
   }
 }
 
