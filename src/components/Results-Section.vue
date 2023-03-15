@@ -1,6 +1,34 @@
 <script>
 
 export default{
+  data(){
+    return{
+
+      results: [
+
+        {
+          numbers: '128',
+          description: 'Certifications'
+        },
+        {
+          numbers: '230',
+          description: 'Employees'
+        },
+        {
+          numbers: '517',
+          description: 'Customers'
+        },
+        {
+          numbers: '94',
+          description: 'Countries Served'
+        },
+        
+
+      ]
+
+
+    }
+  }
 
 }
 
@@ -19,22 +47,12 @@ export default{
       </div>
 
       <ul class="d-flex numbers-list justify-content-evenly gap-5 text-center">
-        <li>
-          <h2>128</h2>
-          <h3>Certifications</h3>
+
+        <li v-for="result in results">
+          <h2>{{ result.numbers }}</h2>
+          <h3>{{ result.description }}</h3>
         </li>
-        <li>
-          <h2>230</h2>
-          <h3>Employees</h3>
-        </li>
-        <li>
-          <h2>517</h2>
-          <h3>Customers</h3>
-        </li>
-        <li>
-          <h2>94</h2>
-          <h3>Countries Served</h3>
-        </li>
+        
       </ul>
 
     </div>

@@ -29,9 +29,9 @@ export default{
           <li class="col-5 p-0">
             <select class="form-select" aria-label="Default select example">
               <option selected>More Info</option>
-              <option value="1">Infos</option>
-              <option value="2">Issues</option>
-              <option value="3">Logistic</option>
+              <option value="1">Tickets</option>
+              <option value="2">Commercials</option>
+              <option value="3">Logistics</option>
             </select>
           </li>
           <li class="col-11 p-0">

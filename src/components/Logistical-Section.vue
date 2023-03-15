@@ -133,7 +133,7 @@ export default{
     font-weight: 700;
     color: #00A29C;
     margin: 0;
-    top: -48%;
+    top: -80%;
     right: 50%;
     translate: 50%;
     width: 40px;
