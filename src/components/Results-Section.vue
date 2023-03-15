@@ -80,7 +80,6 @@ section{
     font-weight: 700;
     font-size: 20px;
     color: #00A29C;
-
   }
   h3{
     font-weight: 800;
@@ -95,10 +94,15 @@ section{
 
 .numbers-list{
   padding: 90px 0px 0px 0px;
+  cursor:default;
   h2{
     color: #00A29C;
     font-size: 38px;
     font-weight: 700;
+  }
+  h2:hover{
+    font-size: 49px;
+    transition: 1s;
   }
 }
 

@@ -148,58 +148,6 @@ export default{
 
 <style lang="scss" scoped>
 
-// BOTTONE CUSTOM
-
-.middle{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-}
-
-.bettone{
-  border-radius: 8px;
-  background: none;
-  border: 2px solid white;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  min-width: 200px;
-  margin: 10px;
-  cursor: pointer;
-  transition: 0.4s linear;
-  position: absolute;
-}
-
-.bettone:hover{
-  color: black;
-}
-
-.bettone::before{
-  
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: -1;
-  transition: transform 0.5s;
-  transform-origin: 0 0;
-  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
-}
-
-.bettone1::before{
-  transform: scaleX(0);
-}
-
-.bettone1:hover::before{
-  transform: scaleX(1);
-}
-
-
-// BOTTONE CUSTOM FINE
 
 *{
   color: white;
@@ -219,7 +167,7 @@ section{
 
 a:hover, .icon-hover:hover{
   color: #00c4c4;
-
+  transition: 0.5s;
 }
 .row-contacts-opening{
   padding-top: 13px;

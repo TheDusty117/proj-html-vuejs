@@ -157,6 +157,7 @@ section{
 }
 .card-custom{
   background-color: #19191F;
+  cursor:default;
   border-radius: 10px;
   min-height: 310px;
   h3{
@@ -181,5 +182,17 @@ section{
     color: #058283;
     font-size: 30px;
   }
+  .fa-arrow-right:hover{
+    color: #058283;
+    transition: 1s;
+    font-size: 70px;
+  }
 }
+
+.card-custom:hover{
+    padding: 10px;
+    color: #00fff7;
+    transition: 2s;
+  }
+
 </style>

@@ -114,9 +114,7 @@ section{
 
 //--------------------------------- ROW DELLE CARTE
 
-.row-cards{
-  // gap: 30px;
-}
+
 
 .col-custom{
   width: 31%;
@@ -126,6 +124,7 @@ section{
   position: relative;
 }
 .card-custom{
+  cursor:default;
   background-color: #19191F;
   border-radius: 10px;
   min-height: 310px;
@@ -148,8 +147,14 @@ section{
     font-size: 30px;
     right: 20px;
   }
+  
 }
 
+.card-custom:hover{
+    padding: 10px;
+    color: #00fff7;
+    transition: 2s;
+  }
 
 
 
