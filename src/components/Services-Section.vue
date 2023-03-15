@@ -1,6 +1,32 @@
 <script>
 
 export default{
+  // data(){
+  //   return{
+
+  //     cards: [
+
+  //       {
+  //         number: '01',
+  //         title: 'Technology',
+  //         description: "We are continually focused on developing technology solutions adapted to our client's needs."
+  //       },
+  //       {
+  //         number: '02',
+  //         title: 'Reefer Cargo',
+  //         description: "Regular and frequent, monitoring from the receipt of the loaded container to final destination."
+  //       },
+  //       {
+  //         number: '03',
+  //         title: 'Dry Cargo',
+  //         description: "We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care."
+  //       },
+        
+  //     ]
+
+
+  //   }
+  // }
 
 }
 

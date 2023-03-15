@@ -1,6 +1,32 @@
 <script>
 
 export default{
+  data(){
+    return{
+
+      links: [
+
+        {
+          title: 'home',
+        },
+        {
+          title: 'about',
+        },
+        {
+          title: 'services',
+        },
+        {
+          title: 'process',
+        },
+        {
+          title: 'testimonials',
+        },
+
+      ]
+
+
+    }
+  }
 
 }
 
@@ -62,21 +88,10 @@ export default{
 
       <div class="col-10">
         <ul class="utility-list d-flex m-0 justify-content-end align-items-center gap-5 fs-5">
-          <li>
-            <a href="#">home</a>
+          <li v-for="link in links">
+            <a href="#">{{ link.title }}</a>
           </li>
-          <li>
-            <a href="#">about</a>
-          </li>
-          <li>
-            <a href="#">services</a>
-          </li>
-          <li>
-            <a href="#">process</a>
-          </li>
-          <li>
-            <a href="#">testimonials</a>
-          </li>
+          
           <li>
             <a href="#"><font-awesome-icon icon="fa-regular fa-user" /></a>
           </li>
