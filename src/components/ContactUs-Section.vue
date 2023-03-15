@@ -56,7 +56,7 @@ export default{
             <h4><font-awesome-icon icon="fa-solid fa-phone" /> +1 (305) 1234-5678</h4>
           </li>
           <li class="pt-3">
-            <h4><font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com</h4>
+            <h4><font-awesome-icon icon="fa-solid fa-envelope" /> cargotransport@example.com</h4>
           </li>
           <li class="pt-3">
             <h4><font-awesome-icon icon="fa-solid fa-location-dot" /> Main Avenue,987</h4>

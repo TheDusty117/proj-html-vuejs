@@ -110,6 +110,7 @@ export default{
 
 
 .secondary-row{
+    width: 100%;
     position: relative;
   p{
     font-size: 20px;
