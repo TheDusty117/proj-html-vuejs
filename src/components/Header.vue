@@ -56,13 +56,19 @@ export default{
           </span>
         </li>
         <li>
-          <span><font-awesome-icon icon="fa-brands fa-facebook-f" /></span>
+          <a href="#">
+            <span><font-awesome-icon class="icon-hover" icon="fa-brands fa-facebook-f" /></span>
+          </a>
         </li>
         <li>
-          <span><font-awesome-icon icon="fa-brands fa-twitter" /></span>
+          <a href="#">
+            <span><font-awesome-icon class="icon-hover" icon="fa-brands fa-twitter" /></span>
+          </a>
         </li>
         <li>
-          <span><font-awesome-icon icon="fa-brands fa-linkedin-in" /></span>
+          <a href="#">
+            <span><font-awesome-icon class="icon-hover" icon="fa-brands fa-linkedin-in" /></span>
+          </a>
         </li>
       </ul>
       
@@ -81,7 +87,9 @@ export default{
       <div class="col-2">
         <ul class="p-0">
           <li>
-            <h2 class="main-logo"><span class="nex-style">NEX</span> GEN</h2>
+            <a href="#">
+              <h2 class="main-logo"><span class="nex-style">NEX</span> GEN</h2>
+            </a>
           </li>
         </ul>
       </div>
@@ -93,7 +101,7 @@ export default{
           </li>
           
           <li>
-            <a href="#"><font-awesome-icon icon="fa-regular fa-user" /></a>
+            <a href="#"><font-awesome-icon class="icon-hover" icon="fa-regular fa-user" /></a>
           </li>
           <li>
             <button class="btn btn-custom btn-custom-active">GET IN TOUCH</button>
@@ -150,7 +158,10 @@ section{
   
 }
 
+a:hover, .icon-hover:hover{
+  color: #00c4c4;
 
+}
 .row-contacts-opening{
   padding-top: 13px;
 }

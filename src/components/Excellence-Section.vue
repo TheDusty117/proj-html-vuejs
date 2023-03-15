@@ -1,6 +1,29 @@
 <script>
 
 export default{
+  data(){
+    return{
+
+      trucks: [
+
+        {
+          size: 'Light',
+          weight: 'Max Weight 1200kg'
+        },
+        {
+          size: 'Medium',
+          weight: 'Max Weight 6000kg'
+        },
+        {
+          size: 'Heavy',
+          weight: 'Max Weight 24000kg'
+        },
+
+      ]
+
+
+    }
+  }
 
 }
 
@@ -34,13 +57,13 @@ export default{
         <h2 class="pb-3">Vehicle Types</h2>
         <ul class="p-0">
 
-          <li v-for="el in 3" class="d-flex pt-3 gap-4 truck-item">
+          <li v-for="truck in trucks" class="d-flex pt-3 gap-4 truck-item">
             <div>
               <img class="truck-img" src="/images/truck-1.png" alt="">
             </div>
             <div>
-              <h3>Light</h3>
-              <p>Max Weight 1200kg</p>
+              <h3>{{ truck.size }}</h3>
+              <p>{{ truck.weight }}</p>
             </div>
           </li>
 
