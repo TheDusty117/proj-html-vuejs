@@ -1,6 +1,37 @@
 <script>
 
 export default{
+  data(){
+    return{
+
+      cards: [
+
+        {
+          number: '01',
+          title: 'Collection of information',
+        },
+        {
+          number: '02',
+          title: 'Service Invoice Sending',
+        },
+        {
+          number: '03',
+          title: 'Withdrawal of the Cargo',
+        },
+        {
+          number: '04',
+          title: 'Transport Customer Order',
+        },
+        {
+          number: '05',
+          title: 'Successful Delivery',
+        },
+
+      ]
+
+
+    }
+  }
 
 }
 
@@ -27,35 +58,15 @@ export default{
     
       <div class="row secondary-row justify-content-center gap-4 text-center pt-5">
 
-        <div class="col-2">
-          <h2>1</h2>
-          <h3>Collection of information</h3>
+        <div v-for="card in cards" class="col-2">
+          <div>
+            <h2>{{card.number}}</h2>
+          </div>
+          <h3>{{ card.title }}</h3>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
 
-        <div class="col-2">
-          <h2>2</h2>
-          <h3>Service Invoice <br> Sending</h3>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
-
-        <div class="col-2">
-          <h2>3</h2>
-          <h3>Withdrawal<br>of Cargo</h3>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
-
-        <div class="col-2">
-          <h2>4</h2>
-          <h3>Transport Customer<br>Order</h3>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
-
-        <div class="col-2">
-          <h2>5 </h2>
-          <h3>Successful Delivery</h3>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
+        
         
       </div>
    
@@ -111,13 +122,24 @@ export default{
 
 .secondary-row{
     width: 100%;
+  .col-2{
     position: relative;
+  }
   p{
     font-size: 20px;
   }
   h2{
     position: absolute;
-    top: -20px;
+    font-weight: 700;
+    color: #00A29C;
+    margin: 0;
+    top: -48%;
+    right: 50%;
+    translate: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #EEF4ED;
+    border-radius: 999px;
   }
   
  

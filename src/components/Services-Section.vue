@@ -50,8 +50,8 @@ export default{
             </a>
           </li>
         </ul>
-        <h3 class="px-4 py-2">Technology</h3>
-        <p class="px-4">We are continually focused on developing technology solutions adapted to our client's needs.</p>
+        <h3 class="px-4 py-2">Reefer Cargo</h3>
+        <p class="px-4">Regular and frequent, monitoring from the receipt of the loaded container to final destination.</p>
       </div>
   
       <div class="col-custom card-custom">
@@ -63,8 +63,8 @@ export default{
             </a>
           </li>
         </ul>
-        <h3 class="px-4 py-2">Technology</h3>
-        <p class="px-4">We are continually focused on developing technology solutions adapted to our client's needs.</p>
+        <h3 class="px-4 py-2">Dry Cargo</h3>
+        <p class="px-4">We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.</p>
       </div>
       
     </div>
